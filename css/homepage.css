@@ -1,0 +1,16 @@
+body 
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+}
+
+#CharlieQuote 
+{
+    font-size: 50px;
+    width: 100%;
+    margin: 2% 5%;
+    font-family: cursive;
+    color: #ffffff;
+}
