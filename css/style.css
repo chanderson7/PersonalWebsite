@@ -1,0 +1,72 @@
+body 
+{
+    background-image: url("..//images/background.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;      
+}
+
+h1 
+{
+    margin-top: 100px;
+    color: white;
+    margin-left: 20px;
+    text-align:center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align:center;
+    font-size: 30x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nameHeader
+{
+  margin: auto;
+  width: 50%;
+}
+
+.workLinks
+{
+  display: grid;
+  margin: auto;
+  height: 100px;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+}
+
+.section1
+{
+   margin: auto;
+   margin-right: 0px;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-right: 0px;
+}
+.section2
+{
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 0px;
+}
+.section3
+{
+    margin: auto;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
