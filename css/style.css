@@ -9,6 +9,32 @@
     zoom: 1.0;
 }
 
+.nameHeader h1
+{
+    animation: type 2s steps(30);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 20ch;
+}
+
+@keyframes type
+{
+    0%
+    {
+        border-right: solid orange;
+        width: 0ch;
+    }
+    80%
+    {
+        border-right: solid orange;
+        width: 20ch;
+    }
+    100%
+    {
+        border-right: none;
+    }
+}
+
 body 
 {
     background-image: url("..//images/Wallpaper.jpg");
